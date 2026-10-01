@@ -1,13 +1,23 @@
-# Time Series Anomaly Detection
+# Anomaly Detection Lab
 
-This repository contains educational projects for learning how to detect anomalies in time series data.
-
-The projects explore practical concepts such as data preparation, visualization, anomaly detection methods, and evaluation. Each project is intended to build a foundation and understanding in time series analysis.
+A collection of educational projects and experiments created to study anomaly detection techniques across different types of data and scenarios.
 
 ## Projects
 
-- `cpu-anomaly-detection/`: An anomaly detection study using CPU utilization data from Amazon CloudWatch.
+### CPU Anomaly Detection
+
+Time series anomaly detection using CPU utilization data from Amazon CloudWatch, available through the Numenta Anomaly Benchmark (NAB).
+
+The project explores:
+
+- Exploratory Data Analysis
+- Feature Engineering
+- Statistical anomaly detection
+- Isolation Forest
+- Model evaluation
+
+See [`cpu-anomaly-detection/`](./cpu-anomaly-detection/) for the complete project.
 
 ## Purpose
 
-This repository is a personal learning space for studying time series anomaly detection and documenting experiments, techniques, and results over time.
+This repository is a personal learning space for studying anomaly detection methods, experimenting with different approaches, and documenting results over time.
